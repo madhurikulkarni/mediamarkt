@@ -1,0 +1,20 @@
+.boxRow {
+  list-style-type: none;
+  border-top-color: #d0d7de;
+  border-top-style: solid;
+  border-top-width: 1px !important;
+}
+.issueName {
+  padding: 8px 16px;
+}
+.issueTitle {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.issueDetail {
+  font-size: 12px;
+  color: #6e7781;
+  margin-bottom: 0;
+}

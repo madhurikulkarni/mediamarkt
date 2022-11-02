@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1021px) {
+  .bodyText {
+    width: 800px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 1280px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .issueBody {
+    display: inline-flex;
+  }
+  .bodyText {
+    width: 500px;
+  }
+  .issueBody {
+    margin: 20px 40px;
+  }
+  .avatarUrl {
+    margin-bottom: 0px;
+  }
+}
+
+.avatarUrl {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.bodyText {
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  padding: 16px;
+}

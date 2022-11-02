@@ -1,0 +1,7 @@
+overwrite: true
+schema: "src/generated/github-schema-loader.ts"
+documents: "src/**/*.tsx"
+generates:
+  (src/generated/graphql.ts):
+    preset: "client"
+    plugins: []
